@@ -19,7 +19,7 @@ def lambda_handler(event, context):
             c = str(id)
             sns = boto3.client("sns", region_name="us-east-1")
             sns.publish(
-              TopicArn="arn:aws:sns:us-east-1:686878367233:public_Bucket",
+              TopicArn="",  #Define the topic ARN
               Message=json.dumps(c), 
-              Subject="Instance will expire in a month"
+              Subject="Instance will expire in a month" #Subject for Mail
             )  
