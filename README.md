@@ -1,4 +1,4 @@
-# Send Email A Month Before the Reserved Instance Expires
+# Send Email Before Reserved Instance Expires
 ## Introduction:
 In this Article, we will go through how we can receive email notifications a month before the Reserved Instance expires.
 
