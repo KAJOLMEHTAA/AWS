@@ -15,7 +15,7 @@ The following are the steps to follow to set email notifications:
 ## Step-by-Step Explanation:
 1. Create a Lambda function:
       * Open Lambda Console, Create Function
-      * Enter the function Name, Select Python 3.9, create a IAM role with following policies and attach the same to the Lambda function. EC@FullAccess and SNSFullAccess.
+      * Enter the function Name, Select Python 3.9, create a IAM role with following policies and attach the same to the Lambda function. EC2FullAccess and SNSFullAccess.
       * Click on Create Function, will redirect to the Function page with Basic Lambda Code, copy the below Lambda code and paste it in the console
       * This is the Lambda function which will call the SNS.
       * [Refer This File](https://github.com/KAJOLMEHTAA/Reserved_Instance/blob/main/RI.py)
