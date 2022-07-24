@@ -22,4 +22,4 @@ The following are the steps to follow to set email notifications:
 
 2. SNS Topic:
       * Open SNS Topic Console, Create Topic
-      * Under the Topic Create Subscription, Protocol as AWS Lambda and Specify the Lambda Function to invoke in Endpoint.
+      * Under the Topic Create Subscription, Protocol as Email and Specify the Email ID where you want to receive notification for Instance expiration, in Endpoint.
